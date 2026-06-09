@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.intro-wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.intro-title {
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0 0 16px;
+    color: #111;
+}
+
+.intro-sub {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 32px;
+    color: #111;
+}
+
+.intro-enter {
+    font-size: 16px;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.intro-enter:hover {
+    opacity: 0.5;
+}

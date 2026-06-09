@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 32px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #111;
+  letter-spacing: 1px;
+}
+
+.card-area {
+  display: flex;
+  padding: 40px 40px 20px;
+  gap: 16px;
+  overflow-x: auto;
+  height: 680px;
+  align-items: flex-start;
+}
+
+.card-big {
+  width: 320px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.card-small {
+  width: 280px;
+  height: 292px;
+  border-radius: 16px;
+  background-color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-info-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.tag {
+  font-size: 11px;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 15px;
+  margin: 6px 0 0;
+  color: #111;
+  line-height: 1.5;
+}
+
+.scroll-hint {
+  padding: 0 40px 24px;
+  font-size: 13px;
+  color: #999;
+}
+
+.card-1 {
+  background-image: url('images/서우봉1.JPG');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.card-2 {
+  background-image: url(images/쏜애플.JPG);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.card-3 {
+  background-image: url(images/엽서.JPG);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.card-4 {
+  background-image: url(images/screenshot.png);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.card-5 {
+  background-image: url(images/야키토리.JPG);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.card-6 {
+  background-image: url(images/토마틀.JPG);
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
