@@ -130,3 +130,15 @@ nav a {
   background-position: center;
   background-color: transparent;
 }
+
+.card-7 {
+  background-image: url('images/flower1.JPG');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-8 {
+  background-image: url('images/flower2.JPG');
+  background-size: cover;
+  background-position: center;
+}
